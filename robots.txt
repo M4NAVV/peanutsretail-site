@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://peanutsretail.com/sitemap.xml
