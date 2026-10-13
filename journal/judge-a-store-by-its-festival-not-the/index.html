@@ -196,6 +196,7 @@
       <a class="label back" href="/journal/">&#8592; Journal</a>
       <h1>Judge a store by its festival, not the calendar</h1>
       <p>Festive trading &#183; By Deepakk Bansal, Director &#183; October 2026 &#183; 6 min read</p>
+      <div class="label" style="margin-top:18px">No. 02 &#183; <a class="jtopic" href="/journal/?t=seasons">Seasons and festivals</a></div>
     </div></section>
     <div class="wrap split article">
       <div class="side"><span class="label">In short</span><ul class="takeaways"><li>Festival dates move every year; compare against the festival, not the month</li><li>Even listed retailers&#x27; quarters are bent by where Puja falls</li><li>Each state in the East keeps its own festival year</li><li>Stock, tailors and staff must be ready before the peak, not for it</li></ul></div>
@@ -237,7 +238,79 @@
         <div class="endnote"><span class="label">Planning stores here?</span><p>We help brands open and run stores in East and North-East India.</p><a class="more" href="/contact/">Write to us <span aria-hidden="true">&#8594;</span></a></div>
       </div>
     </div>
-  </article><script>(function(){if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  </article><section class="jnext"><style>
+.jx-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.jx-stats{font-size:.86rem;color:var(--quiet);letter-spacing:.02em}
+.jtools{position:sticky;top:var(--hdr,84px);z-index:3;background:var(--paper);border-bottom:1px solid var(--rule)}
+.jtools .wrap{display:flex;gap:20px;align-items:center;justify-content:space-between;padding-block:14px}
+.jchips{display:flex;gap:8px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;flex:1 1 0;min-width:0;mask-image:linear-gradient(90deg,#000 calc(100% - 40px),transparent)}
+.jchips::-webkit-scrollbar{display:none}
+.jchip{font:500 .84rem var(--sans);color:var(--body);background:transparent;border:1px solid var(--rule);border-radius:99px;padding:7px 14px;cursor:pointer;white-space:nowrap}
+.jchip span{color:var(--quiet);margin-left:4px;font-variant-numeric:tabular-nums}
+.jchip:hover{border-color:var(--ink);color:var(--ink)}
+.jchip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.jchip[aria-pressed="true"] span{color:var(--deep-quiet)}
+.jsearch{position:relative;flex:0 0 240px}
+.jsearch input{width:100%;font:400 .92rem var(--sans);color:var(--ink);background:var(--stone);border:1px solid transparent;border-radius:99px;padding:9px 16px 9px 38px;outline:none}
+.jsearch input:focus{border-color:var(--ink);background:var(--paper)}
+.jsearch svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:15px;height:15px;color:var(--quiet)}
+.jlead{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:clamp(28px,5vw,72px);align-items:center;padding-block:clamp(40px,6vw,72px)}
+.jlead h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.06;margin:14px 0 16px;max-width:18ch;letter-spacing:-.01em}
+.jlead p{color:var(--body);font-size:1.08rem;max-width:46ch}
+.jlead .jmeta{margin-top:20px;font-size:.86rem;color:var(--quiet)}
+.jlead:hover h2{color:var(--green)}
+.jcov{position:relative;background:var(--cb);color:var(--ci);aspect-ratio:16/10;display:flex;flex-direction:column;justify-content:space-between;padding:14px 16px 12px;overflow:hidden}
+.jcov.big{aspect-ratio:5/4;padding:22px 24px 20px}
+.jcov-top{display:flex;justify-content:space-between;gap:12px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;opacity:.85}
+.jcov.big .jcov-top{font-size:.74rem}
+.jcov .jgl{width:72%;align-self:center;height:auto;margin-bottom:4%;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.jcov.big .jgl{width:58%;margin-bottom:0}
+.jcov .jbig{position:absolute;left:24px;bottom:12px;font-family:var(--serif);font-weight:300;font-size:clamp(4rem,8vw,6.5rem);line-height:1;color:var(--ca);opacity:.9;letter-spacing:-.03em}
+a:hover .jcov .jgl{transform:scale(1.04)}
+.jsec{display:flex;justify-content:space-between;align-items:baseline;margin:clamp(40px,5vw,64px) 0 22px;padding-top:14px;border-top:2px solid var(--ink)}
+.jsec h2{font-size:1.5rem;font-weight:400}
+.jsec .jcount{font-size:.86rem;color:var(--quiet)}
+.jgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:44px 32px}
+.jcard{display:flex;flex-direction:column;gap:0}
+.jcard .label{margin-top:16px}
+.jcard h3{font-size:1.32rem;font-weight:400;line-height:1.22;margin:8px 0 8px;letter-spacing:-.005em}
+.jcard p{color:var(--body);font-size:.94rem;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.jcard .jdate{margin-top:10px;font-size:.8rem;color:var(--quiet)}
+.jcard:hover h3{color:var(--green)}
+.jcard[hidden]{display:none}
+.jempty{padding:32px 0;color:var(--quiet)}
+.jarch{margin-bottom:clamp(56px,7vw,96px)}
+.jarch h4{font-family:var(--sans);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--quiet);font-weight:600;margin:26px 0 6px}
+.jarch a{display:grid;grid-template-columns:3.4rem minmax(0,1fr) auto;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.jarch a b{font-family:var(--serif);font-weight:300;color:var(--green);font-size:1.1rem}
+.jarch a span{font-family:var(--serif);font-size:1.12rem;color:var(--ink)}
+.jarch a em{font-style:normal;font-size:.8rem;color:var(--quiet);white-space:nowrap}
+.jarch a:hover span{color:var(--green)}
+.filtering .jlead,.filtering .jarch{display:none}
+.jnext{margin-top:clamp(24px,3vw,40px)}
+.jnext .jgrid{margin-bottom:clamp(56px,7vw,96px)}
+.jtopic{color:var(--green);border-bottom:1px solid currentColor}
+@media(max-width:900px){.jgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.jlead{grid-template-columns:1fr}}
+@media(max-width:600px){
+ .jgrid{grid-template-columns:1fr;gap:0}
+ .jgrid .jcard{display:grid;grid-template-columns:112px minmax(0,1fr);grid-template-rows:auto auto 1fr;column-gap:16px;padding:16px 0;border-bottom:1px solid var(--rule)}
+ .jgrid .jcard .jcov{grid-row:1 / 4;aspect-ratio:1/1;padding:8px}
+ .jgrid .jcard .jcov-top span:last-child{display:none}
+ .jgrid .jcard .jcov-top{font-size:.56rem}
+ .jgrid .jcard .jgl{width:84%}
+ .jgrid .jcard .label{margin-top:0;font-size:.62rem}
+ .jgrid .jcard h3{font-size:1.08rem;margin:6px 0 0}
+ .jgrid .jcard p{display:none}
+ .jgrid .jcard .jdate{margin-top:6px;font-size:.74rem}
+ .jtools .wrap{flex-wrap:wrap}
+ .jtools{position:static}
+ .jchips{flex-wrap:nowrap;overflow-x:auto;margin-inline:calc(-1 * var(--gut));padding-inline:var(--gut);scrollbar-width:none;width:calc(100% + 2 * var(--gut))}
+ .jchips::-webkit-scrollbar{display:none}
+ .jsearch{flex:1 1 100%}
+ .jchips{flex:1 1 100%;mask-image:none}
+ .jarch a{grid-template-columns:2.6rem minmax(0,1fr)}.jarch a em{display:none}
+}
+</style><div class="wrap"><div class="jsec"><h2>Read next</h2><a class="jcount jtopic" href="/journal/">All notes &#8594;</a></div><div class="jgrid"><a class="jcard" href="/journal/cutting-floor-staff-saves-a-little-and-loses/" data-topic="floor" data-text="cutting floor staff saves a little and loses a lot research from mit, wharton and gap&#x27;s own stores points the same way: the person on the shop floor is not a cost to trim but the cheapest growth a store has. selling on the floor people and the floor"><div class="jcov" style="--cb:#0d2419;--ci:#eef1ea;--ca:#e2c57d"><div class="jcov-top"><span>No. 01</span><span>People and the floor</span></div><svg viewBox="0 0 240 150" aria-hidden="true" class="jgl"><rect x="20" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="40" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="60" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="80" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="100" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="120" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="140" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="160" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="180" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="200" y="20" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="20" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="40" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="60" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="80" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="100" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="120" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="140" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="160" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="180" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="200" y="42" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="20" y="64" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="40" y="64" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="60" y="64" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="80" y="64" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="100" y="64" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="120" y="64" width="15" height="17" rx="1.5" fill="#e2c57d"/><rect x="140" y="64" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="160" y="64" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="180" y="64" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="200" y="64" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="20" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="40" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="60" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="80" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="100" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="120" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="140" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="160" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="180" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="200" y="86" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="20" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="40" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="60" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="80" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="100" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="120" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="140" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="160" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="180" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/><rect x="200" y="108" width="15" height="17" rx="1.5" fill="#2b4a39"/></svg></div><span class="label">Selling on the floor &#183; 6 min</span><h3>Cutting floor staff saves a little and loses a lot</h3><p>Research from MIT, Wharton and Gap&#x27;s own stores points the same way: the person on the shop floor is not a cost to trim but the cheapest growth a store has.</p><span class="jdate">October 2026</span></a></div></div></section><script>(function(){if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.3});
 document.querySelectorAll('.jc').forEach(function(f){f.classList.add('anim');io.observe(f)})})();</script>
 </div>
