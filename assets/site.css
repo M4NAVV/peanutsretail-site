@@ -362,7 +362,7 @@ sup.cite a{color:var(--green);font-weight:600}
 .adv-hero+.adv-sec{border-top:0}
 .adv-head{display:grid;gap:12px;max-width:62ch;margin-bottom:44px}
 .adv-head h2,.adv-two h2,.adv-person h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.08}
-.adv-head p,.adv-p{color:var(--a-quiet)}
+.adv-head p,.adv-copy{color:var(--a-quiet)}
 /* where is your store today */
 .jtabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(10px,1.6vw,22px)}
 .jt{all:unset;box-sizing:border-box;cursor:pointer;display:grid;gap:12px;align-content:start;color:var(--a-quiet);transition:color .2s}
@@ -418,7 +418,7 @@ sup.cite a{color:var(--green);font-weight:600}
 .adv-person .ph .director{display:block;width:100%;height:auto}
 /* the director's section is a light band inside the dark Advisory page (9 Oct 2026: the portrait reads only on a light ground) */
 .adv-light{background:#f6f1e7;color:#16130e;border-top:0;--a-ink:#16130e;--a-quiet:#6f6a5c;--a-rule:rgba(22,19,14,.14)}
-.adv-light h2{color:#16130e}.adv-light .alabel{color:#14532d}.adv-light .adv-p{color:#3f3b32}.adv-light .alink{color:#14532d}
+.adv-light h2{color:#16130e}.adv-light .alabel{color:#14532d}.adv-light .adv-copy{color:#3f3b32}.adv-light .alink{color:#14532d}
 .adv-person>div:last-child{display:grid;gap:12px}
 .adv-person .who{color:var(--a-quiet)}
 .alink{display:inline-flex;gap:8px;justify-self:start;font-size:.92rem;font-weight:500;color:var(--a-ink);border-bottom:1px solid var(--a-ink);padding-bottom:3px;text-decoration:none}
