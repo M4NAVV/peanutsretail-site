@@ -30,7 +30,8 @@ h1,h2,h3,h4{margin:0;font-family:var(--serif);font-weight:300;text-wrap:balance;
 .lockup .lk-mk{width:.8em;height:.8em;flex:none}
 .lockup .lk-wm{display:inline-flex;flex-direction:column}
 .lockup .lk-w{font-family:Archivo,sans-serif;font-stretch:125%;font-weight:800;font-size:.46em;letter-spacing:.03em;color:#14532d}
-.lockup .lk-s{font-family:Archivo,sans-serif;font-stretch:125%;font-weight:500;font-size:.13em;letter-spacing:.9em;margin-top:.45em;color:#b3261e}
+.lockup .lk-s{font-family:Archivo,sans-serif;font-stretch:125%;font-weight:500;font-size:.13em;letter-spacing:.9em;margin-top:.45em;margin-left:.21em;color:#b3261e}
+/* 3 Nov 2026: margin-left puts RETAIL's R on the P's left edge (Manav: P, R, G "on the same line &#8230; everywhere") */
 .lockup.on-dark .lk-w{color:#f6f1e7} .lockup.on-dark .lk-s{color:#e8a33d}
 @media (max-width:820px){.lockup{font-size:38px}.lockup .lk-s{letter-spacing:.8em}}
 .shell{display:block;flex:none}
