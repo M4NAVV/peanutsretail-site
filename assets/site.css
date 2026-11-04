@@ -194,6 +194,9 @@ summary.pstate-head::-webkit-details-marker{display:none}
 .role h3{display:flex;align-items:center;gap:16px}
 .role h3 span{grid-column:auto;text-align:left;color:inherit;font-size:inherit}
 .role h3 .tool{height:40px;width:40px;flex:none;margin:0;border-bottom-color:var(--rule)}
+/* 4 Nov 2026 (Manav: "not aligned properly"): the row lines its columns up by baseline, and the heading's baseline was
+   the ICON's, so the title rode 13px above the text beside it. The words set the baseline now; the icon stays centred. */
+.role h3{align-items:baseline}.role h3 .tool{align-self:center}
 
 /* presence: a landmark beside each state's name */
 .st-art{display:none}
